@@ -12,7 +12,7 @@ R4 = 0.1;
 R0 = 1000; 
 Cap = 0.25;
 L = 0.2;
-v = 1;
+vs = 1;
 a = 100;
 
 % Conductance
@@ -59,7 +59,7 @@ for Vo = -10:0.1:10
     VI(v) = Vo;
     V01(v) = V2(5);
     V3(v) = V2(3);
-    v = v + 1;
+    vs = vs + 1;
 end 
 
 figure(1)
